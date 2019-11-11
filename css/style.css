@@ -1,0 +1,183 @@
+/* main{
+    margin-left: auto;
+    margin-right:auto;
+    position: relative;
+    width: 960;
+    height: 700;
+}
+#a {
+    background-color: blue;
+    height: 100px;
+    width: 960px ;
+
+}
+#b {
+    background-color: rgb(20, 220, 80);
+    height: 600px;
+    width: 200px; 
+   
+} 
+.first {
+    position :relative ;
+}
+
+#c {
+    background-color: rgb(160, 220, 20);
+    position: absolute;
+    height: 200px;
+    width: 380px; 
+   
+}
+ #d {
+    background-color: rebeccapurple;
+    position: absolute;
+    top:0 ;
+    left :380 px ;
+    height: 200px;
+    width: 380px; 
+    
+ }
+ .second {
+     position: relative;
+ }
+#e {
+    background-color:black;
+    position: absolute;
+    top:0 ;
+    height: 250px;
+    width: 190px;
+
+}
+ #f {
+    background-color: gray;
+    position: absolute;
+    top:0 ;
+    left :190 px ;
+    height: 250px;
+    width: 190px; 
+   
+
+}
+#g {
+    background-color: crimson;
+    position: absolute;
+    top:0 ;
+    left :380 px ;
+    height: 250px;
+    width: 190px; 
+   
+
+}
+ #h {
+    background-color: palevioletred;
+    position: absolute;
+    top:0 ;
+    left :570 px ;
+    height: 250px;
+    width: 190px;
+ 
+
+}
+ #i {
+    background-color: rgb(20, 173, 220);
+    height: 150px;
+    width: 760px; 
+
+
+} */
+
+
+*{
+    /* margin : auto; */
+ 
+    margin-left: auto;
+    margin-right: auto;
+     height: 960px;
+     
+     max-width: 960px;
+ }
+ body {
+     padding-top: 40px;
+ }
+  header{
+     background-color: darkgoldenrod;
+     height:100px ;
+     width: 960px;
+ }
+ aside{
+     background-color: olive;
+     height:600px ;
+     width: 200px;
+     float: left;
+ 
+ }
+ 
+ #c{
+     background-color: blueviolet;
+     height:200px ;
+     width: 380px;
+     float: left;
+ }
+ #d{
+     background-color: palevioletred;
+     height: 200px;
+     width:380px ;
+     float: left;
+ }
+ #e{
+     background-color: rgb(162, 226, 43);
+     height: 250px;
+     width: 190px;
+     float: left;
+ }
+ #f{
+     background-color: darkred;
+     height:250px ;
+     width: 190px;
+     float: left;
+ }
+ #g{
+     background-color: rgb(48, 51, 184);
+     height:250px ;
+ 
+
+float: left;
+}
+#d{
+    background-color: palevioletred;
+    height: 200px;
+    width:380px ;
+    float: left;
+}
+#e{
+    background-color: rgb(162, 226, 43);
+    height: 250px;
+    width: 190px;
+    float: left;
+}
+#f{
+    background-color: darkred;
+    height:250px ;
+    width: 190px;
+    float: left;
+}
+#g{
+    background-color: rgb(48, 51, 184);
+    height:250px ;
+    width: 190px;
+    float: left;
+}
+
+#h{
+    background-color: rgb(158, 22, 85);
+    height:250px ;
+    width: 190px;
+    float: left;
+}
+#i{
+   
+    background-color: rgb(88, 151, 6);
+    height:150px ;
+    width: 760px;
+    float: left;
+}
