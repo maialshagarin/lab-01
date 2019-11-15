@@ -1,94 +1,4 @@
-/* main{
-    margin-left: auto;
-    margin-right:auto;
-    position: relative;
-    width: 960;
-    height: 700;
-}
-#a {
-    background-color: blue;
-    height: 100px;
-    width: 960px ;
-
-}
-#b {
-    background-color: rgb(20, 220, 80);
-    height: 600px;
-    width: 200px; 
-   
-} 
-.first {
-    position :relative ;
-}
-
-#c {
-    background-color: rgb(160, 220, 20);
-    position: absolute;
-    height: 200px;
-    width: 380px; 
-   
-}
- #d {
-    background-color: rebeccapurple;
-    position: absolute;
-    top:0 ;
-    left :380 px ;
-    height: 200px;
-    width: 380px; 
-    
- }
- .second {
-     position: relative;
- }
-#e {
-    background-color:black;
-    position: absolute;
-    top:0 ;
-    height: 250px;
-    width: 190px;
-
-}
- #f {
-    background-color: gray;
-    position: absolute;
-    top:0 ;
-    left :190 px ;
-    height: 250px;
-    width: 190px; 
-   
-
-}
-#g {
-    background-color: crimson;
-    position: absolute;
-    top:0 ;
-    left :380 px ;
-    height: 250px;
-    width: 190px; 
-   
-
-}
- #h {
-    background-color: palevioletred;
-    position: absolute;
-    top:0 ;
-    left :570 px ;
-    height: 250px;
-    width: 190px;
- 
-
-}
- #i {
-    background-color: rgb(20, 173, 220);
-    height: 150px;
-    width: 760px; 
-
-
-} */
-
-
 *{
-    /* margin : auto; */
  
     margin-left: auto;
     margin-right: auto;
@@ -100,7 +10,7 @@
      padding-top: 40px;
  }
   header{
-     background-color: darkgoldenrod;
+     background-color: lightslategray;
      height:100px ;
      width: 960px;
  }
@@ -119,7 +29,7 @@
      float: left;
  }
  #d{
-     background-color: palevioletred;
+     background-color: blueviolet;
      height: 200px;
      width:380px ;
      float: left;
@@ -130,25 +40,8 @@
      width: 190px;
      float: left;
  }
- #f{
-     background-color: darkred;
-     height:250px ;
-     width: 190px;
-     float: left;
- }
- #g{
-     background-color: rgb(48, 51, 184);
-     height:250px ;
  
-
-float: left;
-}
-#d{
-    background-color: palevioletred;
-    height: 200px;
-    width:380px ;
-    float: left;
-}
+ 
 #e{
     background-color: rgb(162, 226, 43);
     height: 250px;
@@ -156,20 +49,20 @@ float: left;
     float: left;
 }
 #f{
-    background-color: darkred;
+    background-color: rgb(162,226,43);
     height:250px ;
     width: 190px;
     float: left;
 }
 #g{
-    background-color: rgb(48, 51, 184);
+    background-color: rgb(162, 226, 43);
     height:250px ;
     width: 190px;
     float: left;
 }
 
 #h{
-    background-color: rgb(158, 22, 85);
+    background-color: rgb(162, 226, 43);
     height:250px ;
     width: 190px;
     float: left;
@@ -180,4 +73,87 @@ float: left;
     height:150px ;
     width: 760px;
     float: left;
+}
+@media (max-width:747px){
+
+
+    main{
+        width: 480px;
+        height: 767px;
+        position: relative;
+        margin:auto;
+    }
+     
+
+    header {
+        width: 480px;
+        height: 75px;
+        background-color: #aaa;
+        line-height: 75px;
+        
+    }
+    aside {
+        width: 480px;
+        height: 150px;
+        background-color: #aaa;
+        line-height: 150px;
+        border-width: 1px 1px 0px 1px;
+
+    
+    }
+    #c {
+        width: 480px;
+        height: 125px;
+        background-color: #aaa;
+        line-height: 125px;
+        float: left;
+        border-width: 1px 1px 0px 1px;
+
+    }
+    #d {
+        width: 480px;
+        height: 125px;
+        background-color: #aaa;
+        line-height: 125px;
+        float: left;
+    
+    }
+    #e {
+        width: 240px;
+        height: 250px;
+        background-color: rgb(71, 42, 42);
+        line-height: 250px;
+    
+    }
+    #f {
+        width: 240px;
+        height: 250px;
+        background-color:rgb(71, 42, 42);
+        line-height: 250px;
+        border-width: 1px 1px 0px 1px;
+
+    
+    }
+    #g {
+        width: 240px;
+        height: 250px;
+        background-color: rgb(243, 181, 181);
+        line-height: 250px;
+        float: left;
+    
+    }
+    #h {
+        width: 240px;
+        height: 250px;
+        background-color:rgb(243, 181, 181);
+        line-height: 250px;
+        float: left;
+    }
+    #i {
+        width: 480px;
+        height: 80px;
+        background-color: #aaa;
+        line-height: 80px;
+        float: left;
+    }   
 }
