@@ -1,0 +1,16 @@
+*{
+ 
+    margin-left: auto;
+    margin-right: auto;
+     height: 960px;
+     
+     max-width: 960px;
+ }
+ body {
+     padding-top: 40px;
+ }
+  header{
+     background-color: lightslategray;
+     height:100px ;
+     width: 960px;
+ }
