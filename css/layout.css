@@ -1,0 +1,60 @@
+aside{
+    background-color: olive;
+    height:600px ;
+    width: 200px;
+    float: left;
+
+}
+
+#c{
+    background-color: blueviolet;
+    height:200px ;
+    width: 380px;
+    float: left;
+}
+#d{
+    background-color: blueviolet;
+    height: 200px;
+    width:380px ;
+    float: left;
+}
+#e{
+    background-color: rgb(162, 226, 43);
+    height: 250px;
+    width: 190px;
+    float: left;
+}
+
+
+#e{
+   background-color: rgb(162, 226, 43);
+   height: 250px;
+   width: 190px;
+   float: left;
+}
+#f{
+   background-color: rgb(162,226,43);
+   height:250px ;
+   width: 190px;
+   float: left;
+}
+#g{
+   background-color: rgb(162, 226, 43);
+   height:250px ;
+   width: 190px;
+   float: left;
+}
+
+#h{
+   background-color: rgb(162, 226, 43);
+   height:250px ;
+   width: 190px;
+   float: left;
+}
+#i{
+  
+   background-color: rgb(88, 151, 6);
+   height:150px ;
+   width: 760px;
+   float: left;
+}
